@@ -1,0 +1,107 @@
+body {
+    padding-top: 300px;
+    padding-left: 200px;
+    background-image: url(./images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.title  { display: flex;
+    justify-content: center;
+    color: aliceblue;
+    gap: 50px;}
+
+h1  {font-size: 150px;
+    font-weight: 700;}
+
+h2  {font-size: 100px;
+    font-weight: 700;}
+
+main  {margin-top: 70px;}
+
+.but-1 
+{background-image: url(/images/verdzi.png);}
+
+.but-2
+{background-image: url(/images/kuro.png);}
+
+.but-3 
+{background-image: url(/images/tyupebi.png);}
+
+.but-4
+{background-image: url(/images/kirchxibi.png);}
+
+.but-5
+{background-image: url(/images/lomi.png);}
+
+.but-6
+{background-image: url(/images/qalwuli.png);}
+
+.but-7
+{background-image: url(/images/saswori.png);}
+
+.but-8
+{background-image: url(/images/morieli.png);}
+
+.but-9
+{background-image: url(/images/mshvildosani.png);}
+
+.but-10
+{background-image: url(/images/txa.png);}
+
+.but-11
+{background-image: url(/images/merwyuli.png);}
+
+.but-12
+{background-image: url(/images/tevzebi.png);}
+
+
+
+.but-1,
+.but-2,
+.but-3,
+.but-4,
+.but-5,
+.but-6,
+.but-7,
+.but-8,
+.but-9,
+.but-10,
+.but-11,
+.but-12 {
+    position: relative;
+    cursor: pointer;
+    background-color: #2980B9;
+    columns: black;
+    border-radius: 100px; 
+    right: 0;
+    font-weight: 800px;
+    transition: 0.5s;
+    padding: 10px 20px;
+    transition: transform .2s;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 300px;
+    height: 250px;}
+
+
+
+.but-1:hover,
+.but-2:hover,
+.but-3:hover,
+.but-4:hover,
+.but-5:hover,
+.but-6:hover,
+.but-7:hover,
+.but-8:hover,
+.but-9:hover,
+.but-10:hover,
+.but-11:hover,
+.but-12:hover {
+    background-color: #0e3c5a;
+    transform: scale(1.1);
+}
+
